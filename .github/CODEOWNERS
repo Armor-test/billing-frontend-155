@@ -1,0 +1,34 @@
+# CODEOWNERS file for billing-frontend-155
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-ui @Armor-test/squad-ux @Armor-test/dept-identity
+
+# Directory ownership
+/data/ @Armor-test/unit-test @Armor-test/unit-governance
+/models/ @Armor-test/dept-test @Armor-test/grp-search @Armor-test/unit-cloud
+/app/ @Armor-test/dept-release @Armor-test/dept-ui @Armor-test/team-security
+/lib/ @Armor-test/dept-logging @Armor-test/unit-design
+/examples/ @Armor-test/grp-ui @Armor-test/dept-automation
+/scripts/ @Armor-test/dept-reporting @Armor-test/grp-reporting
+/auth/ @Armor-test/dept-logging @Armor-test/team-reporting @Armor-test/unit-design
+/vendor/ @Armor-test/squad-performance @Armor-test/unit-cloud
+/middleware/ @Armor-test/team-reporting @Armor-test/dept-reporting @Armor-test/dept-release
+/security/ @Armor-test/squad-mobile @Armor-test/squad-cache @Armor-test/unit-cloud
+/common/ @Armor-test/squad-tooling @Armor-test/squad-research @Armor-test/squad-product
+
+# File type ownership
+*.sh @Armor-test/dept-security @Armor-test/grp-ui @Armor-test/squad-tooling
+*.go @Armor-test/squad-ml @Armor-test/squad-cloud @Armor-test/squad-search
+*.yml @Armor-test/unit-test @Armor-test/dept-test
+*.scala @Armor-test/squad-product @Armor-test/unit-design @Armor-test/squad-ux
+*.java @Armor-test/dept-reporting @Armor-test/squad-tooling
+*.cpp @Armor-test/squad-performance @Armor-test/squad-cache @Armor-test/squad-mobile
+*.jsx @Armor-test/squad-ml @Armor-test/squad-qa @Armor-test/team-notifications
+*.ts @Armor-test/squad-api @Armor-test/dept-identity @Armor-test/squad-cloud
+*.rb @Armor-test/squad-apps @Armor-test/squad-ml
+*.proto @Armor-test/dept-identity @Armor-test/dept-data @Armor-test/team-security
+*.php @Armor-test/dept-billing @Armor-test/dept-api
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
